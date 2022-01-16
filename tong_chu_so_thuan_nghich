@@ -1,0 +1,14 @@
+t = int(input())
+
+while t:
+    num = input()
+    sum = 0
+    for i in num:
+        sum += int(i)
+    sum = str(sum)
+    # print(sum)
+    if sum == sum[::-1] and len(sum) > 1:
+        print("YES")
+    else:
+        print("NO")
+    t -= 1

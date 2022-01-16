@@ -21,4 +21,3 @@ for i in range(0,n):
         else:
             res += '0 '
     print(res)
-
